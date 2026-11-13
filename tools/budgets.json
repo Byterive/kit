@@ -1,0 +1,14 @@
+{
+  "max_md_lines": 300,
+  "max_md_per_folder": 15,
+  "max_code_lines": 400,
+  "code_extensions": [".py", ".go", ".cs", ".js", ".ts", ".swift", ".kt", ".java", ".ps1", ".sh"],
+  "required_frontmatter": ["title", "summary", "keywords", "status", "updated"],
+  "skip_dirs": ["plugins", "tools"],
+  "exempt_files": ["CLAUDE.md", "README.md", "INDEX.md"],
+  "profile_overrides": {
+    "personal-utilities": {"max_md_lines": 400, "max_md_per_folder": 25, "max_code_lines": 600},
+    "unity": {"skip_dirs": ["Assets/ThirdParty", "Packages", "UserSettings"]},
+    "trading-research": {"max_md_lines": 300}
+  }
+}

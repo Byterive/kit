@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+node_modules/
+.claude/settings.local.json
+.claude/settings.json.bak
+
+# internal notes, kept local (not published)
+docs/REQUIREMENTS.md
+docs/launch-checklist.md
+docs/runbook-new-machine.md
+docs/EXTRACTABLE.md
+docs/plans/
+docs/prompts/
+kit.private.json
+.env
+.env.*
+*.pem
+*.key
+secrets/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json.bak
+.kickoff/backup/
+# secrets
+# editors and OS
+# Claude local state
+# caches
+exchange/

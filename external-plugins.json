@@ -1,0 +1,83 @@
+{
+  "_about": "Plugins the kit uses but does not store: they install from their own marketplaces so they keep getting updates. Install a group into a project with: python tools/install_external.py <group> <project folder>. See docs/howto/11-external-plugins.md.",
+  "plugins": {
+    "frontend-design": {
+      "id": "frontend-design@claude-plugins-official",
+      "by": "Anthropic",
+      "always_on_tokens": 80,
+      "mcp": [],
+      "use": "UI and front-end that looks designed, not generic"
+    },
+    "design": {
+      "id": "design@anthropic-plugin-directory",
+      "by": "Anthropic",
+      "always_on_tokens": 619,
+      "mcp": [
+        "figma",
+        "slack",
+        "linear",
+        "asana",
+        "atlassian",
+        "notion",
+        "intercom",
+        "google calendar",
+        "gmail"
+      ],
+      "use": "design critique, design systems, accessibility, UX copy, handoff"
+    },
+    "website-design": {
+      "id": "website-design@anthropic-plugin-directory",
+      "by": "UXKIN (community)",
+      "always_on_tokens": 536,
+      "mcp": [
+        "uxkin"
+      ],
+      "use": "websites and landing pages from a written design direction (DESIGN.md), page review"
+    },
+    "codesign": {
+      "id": "codesign@anthropic-plugin-directory",
+      "by": "IMG.LY (community)",
+      "always_on_tokens": 2779,
+      "mcp": [
+        "codesign"
+      ],
+      "use": "logos and brand assets as editable designs, print PDFs, videos; runs locally"
+    },
+    "icons8": {
+      "id": "icons8@anthropic-plugin-directory",
+      "by": "Icons8 (community)",
+      "always_on_tokens": 1754,
+      "mcp": [
+        "icons8mcp"
+      ],
+      "use": "one icon pack and illustration style per project, UI polish and checks"
+    },
+    "b2b-personal-branding": {
+      "id": "b2b-personal-branding@anthropic-plugin-directory",
+      "by": "Shashwat Ghosh (community)",
+      "always_on_tokens": 1045,
+      "mcp": [],
+      "use": "bios, LinkedIn headline and About, positioning, brand narrative"
+    }
+  },
+  "groups": {
+    "brand": [
+      "frontend-design",
+      "design",
+      "codesign",
+      "icons8"
+    ],
+    "website": [
+      "frontend-design",
+      "website-design",
+      "icons8",
+      "design"
+    ],
+    "personal-brand-writing": [
+      "b2b-personal-branding"
+    ],
+    "frontend": [
+      "frontend-design"
+    ]
+  }
+}

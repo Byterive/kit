@@ -1,0 +1,33 @@
+{
+  "marketplace": "byterive-kit",
+  "owner": "Byterive",
+  "description": "Byterive plugins for Claude Code",
+  "mode": "github",
+  "plugins": [
+    {
+      "name": "kickoff",
+      "description": "Start any project in one command: brief interview, per-project plugin set, folders, status, decisions, gitignore, health check, resume and wrap-up. Profiles for Unity, Go, NetSuite, mobile, utilities, trading research or your own.",
+      "repo": "Byterive/kickoff"
+    },
+    {
+      "name": "unity-game-kit",
+      "description": "Set up any Unity game project for Claude Code: Android build pipeline, Editor checks, local ComfyUI art with model comparison, and a doctor that says what is missing.",
+      "repo": "Byterive/unity-game-kit"
+    },
+    {
+      "name": "guidebook",
+      "description": "Reads any project and writes plain-language HTML guides in several versions (layman, client, teammate, maintainer, quick-start), and keeps them current as the project changes.",
+      "repo": "Byterive/guidebook"
+    },
+    {
+      "name": "idea2spec",
+      "description": "Interviews you about a rough idea, researches the nearest alternatives, scores it with a go / clarify / kill gate, and writes a spec only if the idea is worth testing.",
+      "repo": "Byterive/idea2spec"
+    },
+    {
+      "name": "cachepulse",
+      "description": "Prompt-cache meter and miss explanations for Claude Code: read share, TTL with source label, per-request timeline.",
+      "repo": "Byterive/cachepulse"
+    }
+  ]
+}
